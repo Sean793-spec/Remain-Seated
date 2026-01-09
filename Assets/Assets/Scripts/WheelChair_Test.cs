@@ -67,7 +67,8 @@ public class WheelChair_Test : MonoBehaviour
     public float holdDistance = 2f;
     public float followSpeed = 10f;
     private Rigidbody heldObject;
-    
+    public UnityEvent itemthrowon;
+    public UnityEvent itemthrowoff;
     public void SetmouseSensitivity()
     {
         // we can add a contumacious check in the update if we need this to contumacious check but this should work with an apply button
@@ -331,6 +332,9 @@ public class WheelChair_Test : MonoBehaviour
                     heldObject = rbhit;
                     //Debug.Log("pickup action pressed");
                     // make hit object a child of the camera and remove physics by setting isKinematic to true or turning off gravity
+                    itemthrowon.Invoke();
+                    itemthrowoff.Invoke();
+
                     hit.transform.SetParent(parentObject.transform); // might need to remove this because I don't think its needed
                     rbhit.useGravity = false;
                     

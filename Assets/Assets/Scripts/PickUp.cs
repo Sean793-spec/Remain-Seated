@@ -31,7 +31,7 @@ public class PickUp : MonoBehaviour
         if (tempParent != null)
         {
             distance = Vector3.Distance(this.transform.position, tempParent.transform.position);
-
+            
             if (distance <= maxDistance);
             {
             isHolding = true;
