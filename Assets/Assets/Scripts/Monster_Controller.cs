@@ -10,7 +10,7 @@ public class Monster_Controller : MonoBehaviour
 {
     [Header("Navmesh Target")]
     [Tooltip("This is the Scriptable Object that contains the target positions for the monster to move to.")]
-    public Vector3Data target;
+    public Vector3List target;
     // this is the path that the monster will follow when moive can be seen with the debug line the monster is selected in the inspector
     private NavMeshPath path;
     [Tooltip("This is the NavMeshAgent component that allows the monster to move using the NavMesh system.")]

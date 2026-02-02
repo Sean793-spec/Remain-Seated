@@ -4,7 +4,7 @@ public class SoundItem : MonoBehaviour
     [Tooltip("This if for the Script Attached to the monster")]
     public Monster_Controller monsterController;
     [Tooltip("This is the same Scriptable object that the monster is using")]
-    public Vector3Data monsterMovePoints;
+    public Vector3List monsterMovePoints;
 
     public float spawnscale = 1f;
 
