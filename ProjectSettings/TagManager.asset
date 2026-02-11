@@ -6,6 +6,8 @@ TagManager:
   tags:
   - interactable
   - Look-at
+  - Water
+  - Pick-Up
   layers:
   - Default
   - TransparentFX
@@ -13,10 +15,10 @@ TagManager:
   - Cafeteria
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Post Processing
+  - Door
+  - Outline
+  - Interactable
   - 
   - 
   - 

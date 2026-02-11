@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 736aae6fe3916dc48a573d9d06429766
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - leftWheelAction: {instanceID: 0}
+  - rightWheelAction: {instanceID: 0}
+  - scrollAction: {instanceID: 0}
+  - cameraAction: {instanceID: 0}
+  - interactAction: {instanceID: 0}
+  - playerCamera: {instanceID: 0}
+  - mainCamera: {instanceID: 0}
+  - highlightMaterial: {instanceID: 0}
+  - tmpText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
